@@ -7,12 +7,36 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
- 
- <h1>hello</h1>
- <Weather/>
- 
- <footer>this project was created by Kat Soltysiak and is available open-source on <a href='https://github.com/kasiasoltysiak/weather-app-react' rel='noreferrer' target='_blank'>GitHub</a></footer>
-    </div>
+     
+     <Weather defaultCity="New York" />
+
+     <footer>
+       This project was coded by{" "}
+       <a
+         href="https://www.linkedin.com/in/katarzyna-soltysiak-design/"
+         target="_blank"
+         rel="noopener noreferrer"
+       >
+         Kat Soltysiak
+       </a>{" "}
+       and is{" "}
+       <a
+         href="https://github.com/kasiasoltysiak/React-Weather"
+         target="_blank"
+         rel="noopener noreferrer"
+       >
+         open-sourced on GitHub
+       </a>{" "}
+       and{" "}
+       <a
+         href="https://suspicious-beaver-111c4d.netlify.com/"
+         target="_blank"
+         rel="noopener noreferrer"
+       >
+         hosted on Netlify
+       </a>
+     </footer>
+   </div>
     </div>
   );
 }

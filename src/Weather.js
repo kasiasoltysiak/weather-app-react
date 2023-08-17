@@ -1,6 +1,5 @@
 import React, {useState} from "react";
 import "./weather.css"
-import axios from "axios";
 
 export default function Weather () {
     return (
@@ -13,8 +12,6 @@ export default function Weather () {
             </form>
             </div>
             </div>
-            
-
             <div className="current box">
                 <div className="d-flex justify-content-between">
                     <div>
